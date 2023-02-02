@@ -43,3 +43,10 @@ body {
   align-items: center;
   gap: 26px;
 }
+
+#user-info img {
+  width: 76px;
+  height: 76px;
+  object-fit: cover;
+  border-radius: 50%;
+}
