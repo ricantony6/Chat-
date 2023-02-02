@@ -9,3 +9,9 @@
 body {
   background: #1a1924;
 }
+  background-color: #1a1924;
+  font-size: 1.6rem;
+  color: #e1e1e6;
+  height: 100vh;
+  overflow: hidden;
+}
