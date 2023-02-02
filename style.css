@@ -50,3 +50,23 @@ body {
   object-fit: cover;
   border-radius: 50%;
 }
+
+#user-status .status {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+
+  margin-top: 6px;
+
+  color: #00b37e;
+  font-size: 18px;
+}
+
+#user-status .status::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  display: block;
+  background-color: #00b37e;
+  border-radius: 50%;
+}
