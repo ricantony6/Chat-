@@ -31,3 +31,15 @@ body {
   grid-template-rows: max-content 1fr max-content;
   margin: auto;
 }
+
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#user-info {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
