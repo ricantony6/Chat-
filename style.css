@@ -110,5 +110,30 @@ message .body {
 .message.you {
   margin-left: auto;
 }
+.message.you .top {
+  text-align: right;
+}
 
+.message.you .body {
+  background-color: #07847e;
+  border-radius: 0.8rem 0.8rem 0 0.8rem;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  background: #282843;
+  border-radius: 999rem;
+  padding: 1.4rem 2.4rem;
+}
+
+input {
+  flex: 1;
+  outline: none;
+  color: #e1e1e6;
+}
+
+form:focus-within {
+  outline: 2px solid white;
+}
 
